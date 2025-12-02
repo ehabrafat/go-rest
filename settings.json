@@ -1,0 +1,15 @@
+{
+  "go.useLanguageServer": true,
+  "go.languageServerFlags": ["-debug"],
+  "go.formatTool": "gopls",
+  "go.gopath": "${workspaceFolder}",
+  "go.goroot": "E:/Program Files/Go", // Adjust to your Go installation path
+  "go.inferGopath": false,
+  "go.autocompleteUnimportedPackages": true,
+  "go.lintTool": "golint",
+  "go.lintOnSave": "package",
+  "editor.formatOnSave": true,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  }
+}
